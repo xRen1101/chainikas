@@ -19,6 +19,7 @@ public class ParticleGenerator : MonoBehaviour {
 	public DynamicParticle.STATES particlesState=DynamicParticle.STATES.WATER; // The state of the particles spawned
 	public Transform particlesParent; // Where will the spawned particles will be parented (To avoid covering the whole inspector with them)
     public int PARTICLE_COUNT = 1000;
+    public float PARTICLE_SCALE = 0.5f;
     private int particleCount = 0;
 
 	void Start() { 	}
@@ -28,9 +29,13 @@ public class ParticleGenerator : MonoBehaviour {
 			GameObject newLiquidParticle=(GameObject)Instantiate(Resources.Load("LiquidPhysics/DynamicParticle")); //Spawn a particle
 			newLiquidParticle.GetComponent<Rigidbody2D>().AddForce( particleForce); //Add our custom force
 			DynamicParticle particleScript=newLiquidParticle.GetComponent<DynamicParticle>(); // Get the particle script
-			particleScript.SetLifeTime(PARTICLE_LIFETIME); //Set each particle lifetime
+            
+            //Set the size of one particle
+            particleScript.transform.localScale = particleScript.transform.localScale * PARTICLE_SCALE;
+
+            particleScript.SetLifeTime(PARTICLE_LIFETIME); //Set each particle lifetime
 			particleScript.SetState(particlesState); //Set the particle State
-			newLiquidParticle.transform.position=transform.position;// Relocate to the spawner position
+            newLiquidParticle.transform.position=transform.position;// Relocate to the spawner position
 			newLiquidParticle.transform.parent=particlesParent;// Add the particle to the parent container			
 			lastSpawnTime=Time.time; // Register the last spawnTime		
             particleCount++;
