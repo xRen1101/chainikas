@@ -1,0 +1,958 @@
+fileFormatVersion: 2
+guid: 0e1dd5f045220a949922b04eb43dd45b
+timeCreated: 1485078117
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sparks_0
+    21300002: Sparks_1
+    21300004: Sparks_2
+    21300006: Sparks_3
+    21300008: Sparks_4
+    21300010: Sparks_5
+    21300012: Sparks_6
+    21300014: Sparks_7
+    21300016: Sparks_8
+    21300018: Sparks_9
+    21300020: Sparks_10
+    21300022: Sparks_11
+    21300024: Sparks_12
+    21300026: Sparks_13
+    21300028: Sparks_14
+    21300030: Sparks_15
+    21300032: Sparks_16
+    21300034: Sparks_17
+    21300036: Sparks_18
+    21300038: Sparks_19
+    21300040: Sparks_20
+    21300042: Sparks_21
+    21300044: Sparks_22
+    21300046: Sparks_23
+    21300048: Sparks_24
+    21300050: Sparks_25
+    21300052: Sparks_26
+    21300054: Sparks_27
+    21300056: Sparks_28
+    21300058: Sparks_29
+    21300060: Sparks_30
+    21300062: Sparks_31
+    21300064: Sparks_32
+    21300066: Sparks_33
+    21300068: Sparks_34
+    21300070: Sparks_35
+    21300072: Sparks_36
+    21300074: Sparks_37
+    21300076: Sparks_38
+    21300078: Sparks_39
+    21300080: Sparks_40
+    21300082: Sparks_41
+    21300084: Sparks_42
+    21300086: Sparks_43
+    21300088: Sparks_44
+    21300090: Sparks_45
+    21300092: Sparks_46
+    21300094: Sparks_47
+    21300096: Sparks_48
+    21300098: Sparks_49
+    21300100: Sparks_50
+    21300102: Sparks_51
+    21300104: Sparks_52
+    21300106: Sparks_53
+    21300108: Sparks_54
+    21300110: Sparks_55
+    21300112: Sparks_56
+    21300114: Sparks_57
+    21300116: Sparks_58
+    21300118: Sparks_59
+    21300120: Sparks_60
+    21300122: Sparks_61
+    21300124: Sparks_62
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sparks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1777.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1777.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1777.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1777.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_4
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1777.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_5
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1777.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_6
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1777.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1555.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1555.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1555.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_10
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1555.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_11
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1555.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_12
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1555.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_13
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1555.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1333.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1333.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1333.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_17
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1333.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_18
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1333.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_19
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1333.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_20
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1333.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1111.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1111.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1111.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_24
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1111.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_25
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1111.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_26
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1111.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_27
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1111.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 889.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_29
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 889.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_30
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 889.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_31
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 889.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_32
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 889.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_33
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 889.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_34
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 889.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 667.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_36
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 667.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_37
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 667.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_38
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 667.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_39
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 667.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_40
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 667.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_41
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 667.7778
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_43
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 445.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_44
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 445.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_45
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 445.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_46
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 445.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_47
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 445.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_48
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 445.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_50
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 223.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_51
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 223.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_52
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 223.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_53
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 223.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_54
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 223.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_55
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 223.77777
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.777771
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_57
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1.777771
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_58
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1.777771
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_59
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1.777771
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_60
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1.777771
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_61
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1.777771
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sparks_62
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1.777771
+        width: 285.7143
+        height: 222.22223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
