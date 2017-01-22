@@ -29,17 +29,37 @@ public class BallControl : MonoBehaviour {
             transform.position = new Vector3 (transform.position.x ,0.1f, transform.position.z);
             movingUp = false;
         }
-        if (Input.GetButtonDown("DropIt"))
+
+        //ANdroid
+        if (Input.touchSupported)
         {
-            rig.gravityScale = 1;
-            dropping = true;
+            if (Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                rig.gravityScale = 1;
+                dropping = true;
+            }
+            if (Input.GetTouch(0).phase == TouchPhase.Ended)
+            {
+                rig.gravityScale = -1;
+                movingUp = true;
+                dropping = false;
+            }
         }
-        if (Input.GetButtonUp("DropIt"))
+        else
         {
-            rig.gravityScale = -1;
-            movingUp = true;
-            dropping = false;
+            if (Input.GetButtonDown("DropIt"))
+            {
+                rig.gravityScale = 1;
+                dropping = true;
+            }
+            if (Input.GetButtonUp("DropIt"))
+            {
+                rig.gravityScale = -1;
+                movingUp = true;
+                dropping = false;
+            }
         }
+
         if (dropping)
         {
             rig.gravityScale += 0.1f;
