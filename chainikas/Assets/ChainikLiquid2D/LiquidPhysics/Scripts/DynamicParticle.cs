@@ -18,7 +18,7 @@ public class DynamicParticle : MonoBehaviour {
 	public GameObject[] particleImages; //We need multiple particle images to reduce drawcalls
 	float GAS_FLOATABILITY=7.0f; //How fast does the gas goes up?
 	float particleLifeTime=3.0f,startTime;//How much time before the particle scalesdown and dies	
-
+    public bool isCounted = false;
 	void Awake(){ 
 		if (currentState == STATES.NONE)
 			SetState (STATES.WATER);
@@ -72,8 +72,8 @@ public class DynamicParticle : MonoBehaviour {
 
 		}	
 	}
-	// This scales the particle image acording to its velocity, so it looks like its deformable... but its not ;)
-	void MovementAnimation(){
+    // This scales the particle image acording to its velocity, so it looks like its deformable... but its not ;)
+    void MovementAnimation(){
 		Vector3 movementScale=new Vector3(1.0f,1.0f,1.0f);//Tamaño de textura no de metaball			
 		movementScale.x+=Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x)/30.0f;
 		movementScale.z+=Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y)/30.0f;
